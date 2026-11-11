@@ -27,7 +27,7 @@ export default function App() {
 
       <main style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px', background: '#fff', padding: '30px', borderRadius: '12px', boxShadow: '0 4px 15px rgba(0,0,0,0.08)' }}>
         
-        {/* Formulario */}
+        {/* Formulario conectado a EmailJS */}
         <section>
           <h2 style={{ color: '#2b6cb0', marginBottom: '15px' }}>Envíanos un mensaje</h2>
           <form ref={formRef} onSubmit={sendEmail} style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
@@ -58,13 +58,13 @@ export default function App() {
           </form>
         </section>
 
-        {/* Mapa */}
+        {/* Mapa actualizado con la nueva ubicación */}
         <section>
           <h2 style={{ color: '#2b6cb0', marginBottom: '15px' }}>Nuestra Ubicación</h2>
           <div style={{ width: '100%', height: '100%', minHeight: '350px', borderRadius: '8px', overflow: 'hidden' }}>
             <iframe 
-              title="Ubicación UPATECO"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.579178229411!2d-65.39414212463065!3d-24.81028717795908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc39110b6d91f%3A0xe54497e16db2c730!2sUPaTeCO!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar"
+              title="Ubicación UPATECO Actualizada"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.7516087799534!2d-65.4116035!3d-24.804222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc39110b6d91f%3A0xe54497e16db2c730!2sUPaTeCO!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
