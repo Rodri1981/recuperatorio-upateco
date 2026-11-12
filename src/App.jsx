@@ -58,12 +58,12 @@ export default function App() {
           </form>
         </section>
 
-        {/* Mapa actualizado con la nueva ubicación */}
+        {/* Mapa integrado con la nueva ubicación */}
         <section>
           <h2 style={{ color: '#2b6cb0', marginBottom: '15px' }}>Nuestra Ubicación</h2>
           <div style={{ width: '100%', height: '100%', minHeight: '350px', borderRadius: '8px', overflow: 'hidden' }}>
             <iframe 
-              title="Ubicación UPATECO Actualizada"
+              title="Ubicación UPATECO"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.7516087799534!2d-65.4116035!3d-24.804222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc39110b6d91f%3A0xe54497e16db2c730!2sUPaTeCO!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar"
               width="100%" 
               height="100%" 
