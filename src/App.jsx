@@ -22,7 +22,7 @@ export default function App() {
     <div style={{ fontFamily: 'sans-serif', background: '#f4f6f9', padding: '20px', minHeight: '100vh' }}>
       <header style={{ textAlign: 'center', marginBottom: '30px' }}>
         <h1 style={{ color: '#1a365d' }}>Contacto - UPATECO</h1>
-        <p style={{ color: '#4a5568' }}>Universidad Provincial de Administración de Tecnologías y Oficios</p>
+        <p style={{ color: '#4a5568' }}>Universidad Provincial de Administración, Tecnología y Oficios</p>
       </header>
 
       <main style={{ maxWidth: '1100px', margin: '0 auto', display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '30px', background: '#fff', padding: '30px', borderRadius: '12px', boxShadow: '0 4px 15px rgba(0,0,0,0.08)' }}>
@@ -58,19 +58,19 @@ export default function App() {
           </form>
         </section>
 
-        {/* Mapa integrado con la nueva ubicación */}
+        {/* Mapa actualizado con tu iframe exacto */}
         <section>
           <h2 style={{ color: '#2b6cb0', marginBottom: '15px' }}>Nuestra Ubicación</h2>
           <div style={{ width: '100%', height: '100%', minHeight: '350px', borderRadius: '8px', overflow: 'hidden' }}>
             <iframe 
               title="Ubicación UPATECO"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.7516087799534!2d-65.4116035!3d-24.804222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc39110b6d91f%3A0xe54497e16db2c730!2sUPaTeCO!5e0!3m2!1ses!2sar!4v1700000000000!5m2!1ses!2sar"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3623.4542378375413!2d-65.40582642505633!3d-24.745610278004367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc1264c76c971%3A0x5fc7316c3bf2248!2sUPATecO%20-%20Universidad%20Provincial%20de%20Administraci%C3%B3n%2C%20Tecnolog%C3%ADa%20y%20Oficios!5e0!3m2!1ses!2sar!4v1794445847415!5m2!1ses!2sar"
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 
               allowFullScreen="" 
               loading="lazy" 
-              referrerPolicy="no-referrer-when-downgrade">
+              referrerPolicy="strict-origin-when-cross-origin">
             </iframe>
           </div>
         </section>
